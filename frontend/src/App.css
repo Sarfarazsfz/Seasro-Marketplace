@@ -1,0 +1,99 @@
+/* Enhanced professional styling */
+.bg-gradient-danger {
+  background: linear-gradient(135deg, #dc3545 0%, #c82333 100%) !important;
+}
+
+.bg-gradient-success {
+  background: linear-gradient(135deg, #28a745 0%, #20c997 100%) !important;
+}
+
+.bg-gradient-primary {
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%) !important;
+}
+
+.product-card {
+  transition: all 0.3s ease;
+  border: 1px solid #e9ecef;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15) !important;
+  border-color: #007bff;
+}
+
+/* Table enhancements */
+.table-responsive {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table th {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #dee2e6;
+}
+
+/* Progress bar enhancements */
+.progress {
+  height: 8px;
+  border-radius: 4px;
+}
+
+/* Badge enhancements */
+.badge {
+  font-weight: 500;
+}
+
+/* Navigation tabs */
+.nav-tabs .nav-link {
+  font-weight: 600;
+  color: #6c757d;
+  border: none;
+  padding: 1rem 1.5rem;
+}
+
+.nav-tabs .nav-link.active {
+  color: #007bff;
+  background: transparent;
+  border-bottom: 3px solid #007bff;
+}
+
+/* Card header enhancements */
+.card-header {
+  font-weight: 600;
+}
+
+/* Alert enhancements */
+.alert {
+  border: none;
+  border-radius: 8px;
+}
+
+/* Spinner enhancements */
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+/* Ensure product images display properly */
+.product-card .card-img-top {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Fallback for broken images */
+.card-img-top[src=""],
+.card-img-top:not([src]) {
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6c757d;
+  font-size: 14px;
+}
+
+/* Make sure the image container is visible */
+.position-relative {
+  overflow: hidden;
+}
